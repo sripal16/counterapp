@@ -1,0 +1,31 @@
+.main-container{
+    background-image: url('https://media.istockphoto.com/id/1217216795/photo/pink-millennial-cute-old-matte-grunge-faded-adobe-plaster-texture-high-key-abstract-cement.jpg?s=612x612&w=0&k=20&c=4dvoSOTvJZj6qVdZaXk8hZ1xOSILrsgsY8Y0HhUGAOs=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.container{
+    text-align: center;
+}
+#value{
+    font-size: 5rem;
+    font-weight: bolder;
+}
+.btn{
+    text-transform: uppercase;
+    border: 0;
+    background: transparent;
+    background-color: antiquewhite;
+    padding: 0.37rem 0.75rem;
+    letter-spacing: 0.2rem;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 2);
+    margin-right: 0.5rem;
+}
+.btn:hover{
+    background-color: darkseagreen;
+    color: white;
+    cursor: pointer;
+    transform: translateY(0.18rem);
+}
